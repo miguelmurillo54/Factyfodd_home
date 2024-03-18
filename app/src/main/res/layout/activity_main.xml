@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextbarrabusqueda"
+        android:layout_width="409dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="¿Que quieres comer?"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/Buttonsearch"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:background="@drawable/search"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextbarrabusqueda"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextbarrabusqueda"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextbarrabusqueda"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextbarrabusqueda"
+        app:layout_constraintVertical_bias="0.428"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/midnight"
+        android:text="Categorias"
+        android:textSize="30dp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextbarrabusqueda"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsalad"
+        android:layout_width="189dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ensalada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcategories"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsalad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/campana"
+        android:text="Ensalada"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonsalad"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonsalad" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbreakfast"
+        android:layout_width="189dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/desayuno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonsalad"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcategories"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbreakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/campana"
+        android:text="Desayuno"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonbreakfast"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonbreakfast" />
+
+
+    <TextView
+        android:id="@+id/textViewinspire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/midnight"
+        android:text="Inspirame"
+        android:textSize="30dp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsalad"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnewrecipe"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rollitos"
+        app:layout_constraintStart_toStartOf="@+id/textViewinspire"
+        app:layout_constraintTop_toBottomOf="@+id/textViewinspire" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Nuevas Recetas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonnewrecipe"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonnewrecipe" />
+
+    <ImageButton
+        android:id="@+id/imageButtonrice"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/arroz"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonnewrecipe"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipe"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+                android:id="@+id/textViewrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/campana"
+                android:text="Arroz"
+                android:textSize="30dp"
+                app:layout_constraintStart_toStartOf="@+id/imageButtonrice"
+                app:layout_constraintTop_toBottomOf="@+id/imageButtonrice" />
+
+    <ImageButton
+        android:id="@+id/imageButtonvegetables"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/verduras"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonrice"
+        app:layout_constraintTop_toBottomOf="@+id/textViewrice" />
+
+    <TextView
+                android:id="@+id/textViewvegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/campana"
+                android:text="Verduras"
+                android:textSize="30dp"
+                app:layout_constraintStart_toStartOf="@+id/imageButtonvegetables"
+                app:layout_constraintTop_toBottomOf="@+id/imageButtonvegetables" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtontrending"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/trending"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonnewrecipe"
+        app:layout_constraintTop_toBottomOf="@+id/textViewinspire" />
+
+    <TextView
+            android:id="@+id/textViewtrending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/campana"
+            android:text="Trending"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/imageButtontrending"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtontrending" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpasta"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/pasta"
+        app:layout_constraintStart_toStartOf="@+id/imageButtontrending"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrending"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonpasta"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpasta" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsoup"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sopa"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonpasta"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpasta" />
+
+    <TextView
+            android:id="@+id/textViewsoup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/campana"
+            android:text="Sopas y Cremas"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonsoup"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonsoup" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
