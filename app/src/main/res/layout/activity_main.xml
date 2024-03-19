@@ -80,10 +80,9 @@
         android:id="@+id/imageButtonbreakfast"
         android:layout_width="189dp"
         android:layout_height="112dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/desayuno"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toEndOf="@+id/imageButtonsalad"
         app:layout_constraintTop_toBottomOf="@+id/textViewcategories"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -99,6 +98,49 @@
         app:layout_constraintStart_toStartOf="@+id/imageButtonbreakfast"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonbreakfast" />
 
+    <ImageButton
+        android:id="@+id/imageButtonfibra"
+        android:layout_width="189dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fibra"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbreakfast"
+        app:layout_constraintTop_toBottomOf="@id/textViewcategories" />
+
+    <TextView
+        android:id="@+id/textViewfibra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/campana"
+        android:text="Fibra"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonfibra"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonfibra" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpostres"
+        android:layout_width="189dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/postres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toEndOf="@id/imageButtonfibra"
+        app:layout_constraintTop_toBottomOf="@id/textViewcategories" />
+
+    <TextView
+        android:id="@+id/textViewpostres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:layout_marginTop="4dp"
+        android:text="Postres"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpostres"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpostres" />
 
     <TextView
         android:id="@+id/textViewinspire"
@@ -122,8 +164,13 @@
         android:layout_height="113dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/rollitos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="@+id/textViewinspire"
-        app:layout_constraintTop_toBottomOf="@+id/textViewinspire" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewinspire"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewnewrecipe"
@@ -140,7 +187,7 @@
         android:id="@+id/imageButtonrice"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/arroz"
         app:layout_constraintStart_toStartOf="@+id/imageButtonnewrecipe"
         app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipe"
@@ -161,10 +208,11 @@
         android:id="@+id/imageButtonvegetables"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/verduras"
         app:layout_constraintStart_toStartOf="@+id/imageButtonrice"
-        app:layout_constraintTop_toBottomOf="@+id/textViewrice" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewrice"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
                 android:id="@+id/textViewvegetables"
@@ -182,11 +230,12 @@
         android:id="@+id/imageButtontrending"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/trending"
         app:layout_constraintStart_toEndOf="@+id/imageButtonnewrecipe"
-        app:layout_constraintTop_toBottomOf="@+id/textViewinspire" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewinspire"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
             android:id="@+id/textViewtrending"
@@ -203,7 +252,8 @@
         android:id="@+id/imageButtonpasta"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/pasta"
         app:layout_constraintStart_toStartOf="@+id/imageButtontrending"
         app:layout_constraintTop_toBottomOf="@+id/textViewtrending"
@@ -224,21 +274,143 @@
         android:id="@+id/imageButtonsoup"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/sopa"
         app:layout_constraintStart_toStartOf="@+id/imageButtonpasta"
-        app:layout_constraintTop_toBottomOf="@+id/textViewpasta" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewpasta"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-            android:id="@+id/textViewsoup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/campana"
-            android:text="Sopas y Cremas"
-            android:textSize="30dp"
-            app:layout_constraintStart_toStartOf="@+id/imageButtonsoup"
-            app:layout_constraintTop_toBottomOf="@+id/imageButtonsoup" />
+        android:id="@+id/textViewsoup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/campana"
+        android:text="Sopas y cremas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonsoup"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonsoup" />
+
+    <ImageButton
+        android:id="@+id/imageButtonfish"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pescados_y_mariscos"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonvegetables"
+        app:layout_constraintTop_toBottomOf="@+id/textViewvegetables" />
+
+    <TextView
+        android:id="@+id/textViewfish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Pescados y Mariscos"
+        android:textSize="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonfish"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonfish" />
+
+    <ImageButton
+        android:id="@+id/imageButtondrinks"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/batidos_y_refrescos"
+        app:layout_constraintStart_toStartOf="@id/textViewsoup"
+        app:layout_constraintTop_toBottomOf="@id/textViewsoup" />
+
+    <TextView
+        android:id="@+id/textViewdrinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Batidos y refrescos"
+        android:textSize="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButtondrinks"
+        app:layout_constraintTop_toBottomOf="@id/imageButtondrinks" />
+
+    <ImageButton
+        android:id="@+id/imageButtonmeet"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:background="@drawable/carne"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/textViewfish"
+        app:layout_constraintTop_toBottomOf="@id/textViewfish" />
+
+    <TextView
+        android:id="@+id/textViewmeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Carnes"
+        android:textSize="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonmeet"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonmeet" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizza"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:background="@drawable/pizza"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/textViewdrinks"
+        app:layout_constraintTop_toBottomOf="@id/textViewdrinks" />
+
+    <TextView
+        android:id="@+id/textViewpizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Pizzas"
+        android:textSize="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizza" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsnacks"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:background="@drawable/snacks"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/textViewmeet"
+        app:layout_constraintTop_toBottomOf="@id/textViewmeet" />
+
+    <TextView
+        android:id="@+id/textViewsnacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Snacks"
+        android:textSize="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsnacks"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsnacks"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburger"
+        android:layout_width="186dp"
+        android:layout_height="113dp"
+        android:background="@drawable/hamburguesa"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/textViewpizza"
+        app:layout_constraintTop_toBottomOf="@id/textViewpizza"/>
+
+    <TextView
+        android:id="@+id/textViewhamburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:textSize="30dp"
+        android:text="Hamburguesas"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburger"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburger" />
+
 
 
 

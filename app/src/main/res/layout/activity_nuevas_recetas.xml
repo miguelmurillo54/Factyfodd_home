@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NuevasRecetas">
+
+
+    <TextView
+        android:id="@+id/textViewnewrecipetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Nuevas recetas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonnewrecipeatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpanqueques"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/panqueques"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/textViewalbondigas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Albondigas con salsa de queso"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonalbondigas"
+        app:layout_constraintTop_toTopOf="@id/imageButtonalbondigas" />
+
+    <TextView
+        android:id="@+id/textViewpasteltaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Pastel de taza"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpasteltaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpasteltaza" />
+
+    <TextView
+        android:id="@+id/textViewtoast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Tostada de huevo con queso"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtontoast"
+        app:layout_constraintTop_toTopOf="@+id/imageButtontoast" />
+
+    <TextView
+        android:id="@+id/textViewpancalabacin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pan de calabacin"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpancalabacin"
+        app:layout_constraintTop_toTopOf="@id/imageButtonpancalabacin" />
+
+    <TextView
+        android:id="@+id/textViewalitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Alitas de pollo a la pimienta roja"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonalitas"
+        app:layout_constraintTop_toTopOf="@id/imageButtonalitas" />
+
+    <ImageButton
+        android:id="@+id/imageButtonalitas"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/alitas"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpancalabacin"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpancalabacin" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpancalabacin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/pan_calabacin"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpasteltaza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpasteltaza" />
+
+    <ImageButton
+        android:id="@+id/imageButtonalbondigas"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/albondigas"
+        app:layout_constraintStart_toStartOf="@id/imageButtonalitas"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonalitas" />
+
+    <ImageButton
+        android:id="@+id/imageButtontoast"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/tostadas"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpanqueques"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpanqueques" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpasteltaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pastel_tasa"
+        app:layout_constraintStart_toStartOf="@id/imageButtontoast"
+        app:layout_constraintTop_toBottomOf="@id/imageButtontoast" />
+
+    <TextView
+        android:id="@+id/textViewpanqueques"
+        android:layout_width="216dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Los panqueques veganos mas esponjosos"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonpanqueques"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpanqueques" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnewrecipeatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
