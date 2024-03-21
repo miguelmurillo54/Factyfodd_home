@@ -5,17 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class NuevasRecetas : AppCompatActivity() {
+class pescados : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_nuevas_recetas)
+        setContentView(R.layout.activity_pescados)
 
-        val btnnewrecipeatras: ImageButton= findViewById(R.id.imageButtonnewrecipeatras)
-        btnnewrecipeatras.setOnClickListener{
+        val btnpescadoatras: ImageButton = findViewById(R.id.imageButtonpescadoatras)
+        btnpescadoatras.setOnClickListener{
 
-            val intent: Intent=Intent(this,MainActivity ::class.java)
+            val intent: Intent = Intent(this,MainActivity ::class.java)
             startActivity(intent)
         }
     }
-
 }

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trending">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButtontrendingatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewnewtrendingtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Tresnding"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtontrendingatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhuevostomate"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/huevos_con_tomate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/textViewhuevostomate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Sarten de huevos con tomate"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhuevostomate"
+        app:layout_constraintTop_toTopOf="@id/imageButtonhuevostomate" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncookies"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/galletas"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhuevostomate"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhuevostomate"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcookies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Galletas de almendra sin azucar"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncookies"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncookies" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastalangostinos"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_con_langostinos"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncookies"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncookies"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastalangostinos"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta al curry con langostinos y verduras"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastalangostinos"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpastalangostinos" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsaladbrocolipollo"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ensalada_brocoli_con_pollo"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpastalangostinos"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpastalangostinos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsaladbrocolipollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Ensalada de brocoli con pollo"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsaladbrocolipollo"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsaladbrocolipollo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonavena"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/avena_nueces"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsaladbrocolipollo"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsaladbrocolipollo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewavena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Avena con nueces"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toEndOf="@id/imageButtonavena"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonavena" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarroz_champiñones"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_hongos"
+        app:layout_constraintStart_toStartOf="@id/imageButtonavena"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonavena"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarroz_champiñones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz con verduras y champiñones"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarroz_champiñones"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarroz_champiñones" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

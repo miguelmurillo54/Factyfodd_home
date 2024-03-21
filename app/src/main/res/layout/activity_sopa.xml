@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sopa">
+
+    <ImageButton
+        android:id="@+id/imageButtonsoupatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textsouptwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Sopas y cremas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonsoupatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncremacoliflortomate"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/crema_coliflor_tomate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcremacoliflortomate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Crema de coliflor y tomate"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncremacoliflortomate"
+        app:layout_constraintTop_toTopOf="@id/imageButtoncremacoliflortomate" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpepino"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/crema_pepino"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncremacoliflortomate"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncremacoliflortomate"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpepino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Crema fria de pepino y manzana"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpepino"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpepino" />
+
+    <ImageButton
+        android:id="@+id/imageButtongazpacho"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gaspacho_melocoton"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpepino"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpepino"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewgazpacho"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Gazpacho de melocotón"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtongazpacho"
+        app:layout_constraintTop_toTopOf="@+id/imageButtongazpacho" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncremacalabaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/crema_calabaza"
+        app:layout_constraintStart_toStartOf="@id/imageButtongazpacho"
+        app:layout_constraintTop_toBottomOf="@id/imageButtongazpacho"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcremacalabaza"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Crema de calabza y batata"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncremacalabaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncremacalabaza" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncoliflorcurry"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/crema_coliflor_curry"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncremacalabaza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncremacalabaza"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcoliflorcurry"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Crema de coliflor con curry"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncoliflorcurry"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncoliflorcurry" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsopapollo"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sopa_pollo"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncoliflorcurry"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncoliflorcurry"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsopapollo"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Sopa de pollo  y calabaza"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsopapollo"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsopapollo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

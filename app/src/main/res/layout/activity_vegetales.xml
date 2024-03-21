@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vegetales">
+
+    <ImageButton
+        android:id="@+id/imageButtonvegetablesatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewvegetabletwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Verduras"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonvegetablesatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncremacoliflor"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/crema_coliflor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcremacoliflor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Crema de calabacin y coliflor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncremacoliflor"
+        app:layout_constraintTop_toTopOf="@id/imageButtoncremacoliflor" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncoliflorqueso"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/coliflor_queso"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncremacoliflor"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncremacoliflor"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcoliflorqueso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Coliflor con salsa de queso"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncoliflorqueso"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncoliflorqueso" />
+
+    <ImageButton
+        android:id="@+id/imageButtonesparragosgratinados"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/esparragos_gratinados"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncoliflorqueso"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncoliflorqueso"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewesparragosgratinados"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Esparragos blancos gratinados"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toEndOf="@id/imageButtonesparragosgratinados"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonesparragosgratinados" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzacalabcin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_calabacin"
+        app:layout_constraintStart_toStartOf="@id/imageButtonesparragosgratinados"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonesparragosgratinados"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzacalabacin"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Mini pizza de calabacin con jamón"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzacalabcin"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzacalabcin" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbastoncalabaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/calabaza_bastones"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzacalabcin"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzacalabcin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbastoncalabaza"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Bastoncillos de calabaza"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbastoncalabaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonbastoncalabaza" />
+
+    <ImageButton
+        android:id="@+id/imageButtonalboronia"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/alboronia"
+        app:layout_constraintStart_toStartOf="@id/imageButtonbastoncalabaza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonbastoncalabaza"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewalboronia"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Alboronia"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toEndOf="@id/imageButtonalboronia"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonalboronia" />
+</androidx.constraintlayout.widget.ConstraintLayout>

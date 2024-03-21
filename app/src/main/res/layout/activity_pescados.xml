@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pescados">
+
+    <ImageButton
+        android:id="@+id/imageButtonpescadoatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/texpescadotwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pescados y mariscos"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonpescadoatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonmerluza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/merluza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewmerluza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Merluza en salsa de tomate"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonmerluza"
+        app:layout_constraintTop_toTopOf="@id/imageButtonmerluza" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsalmonmiel"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/salmon_miel"
+        app:layout_constraintStart_toStartOf="@id/imageButtonmerluza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonmerluza"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsalmonmiel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Salmon con soja y miel"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsalmonmiel"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsalmonmiel" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsandwichhuevo"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sandwich_huevo"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsalmonmiel"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsalmonmiel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsandwichhuevo"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Sandwich de ensalada de huevo y atun"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsandwichhuevo"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsandwichhuevo" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncrepessalmon"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/crepes_salmon"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsandwichhuevo"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsandwichhuevo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcrepessalmon"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Crepes de espinaca rellenas de salmon y atún"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncrepessalmon"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncrepessalmon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsalmonmostaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/salmon_mostaza"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncrepessalmon"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncrepessalmon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsalmonmostaza"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Salmon con mostaza y cebollin"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsalmonmostaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsalmonmostaza" />
+
+    <ImageButton
+        android:id="@+id/imageButtontruchanavarra"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/trucha_navarra"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsalmonmostaza"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsalmonmostaza"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewtruchanavarra"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Trucha a la navarra"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtontruchanavarra"
+        app:layout_constraintTop_toTopOf="@+id/imageButtontruchanavarra" />
+</androidx.constraintlayout.widget.ConstraintLayout>

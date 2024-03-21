@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Arroz">
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewnewricetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonarrozatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozbrocoli"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/arroz_brocoli"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozbrocoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz con brocoli, tomate y queso"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrozbrocoli"
+        app:layout_constraintTop_toTopOf="@id/imageButtonarrozbrocoli" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozpimienta"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_pimienta"
+        app:layout_constraintStart_toStartOf="@id/imageButtonarrozbrocoli"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonarrozbrocoli"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozpimienta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz con ternera y pimienta"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrozpimienta"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarrozpimienta" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozfrito"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_frito"
+        app:layout_constraintStart_toStartOf="@id/imageButtonarrozpimienta"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonarrozpimienta"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozfrito"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz frito"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrozfrito"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarrozfrito" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrosverduras"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_verduras"
+        app:layout_constraintStart_toStartOf="@id/imageButtonarrozfrito"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonarrozfrito"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozverduras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz salteado con verduras"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrosverduras"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarrosverduras" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozespinaca"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_espinaca"
+        app:layout_constraintStart_toStartOf="@id/imageButtonarrosverduras"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonarrosverduras"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozespinaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz con espinaca, pollo y queso"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrozespinaca"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarrozespinaca" />
+
+    <ImageButton
+        android:id="@+id/imageButtonarrozcalabaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/arroz_calabaza"
+        app:layout_constraintStart_toStartOf="@id/imageButtonarrozespinaca"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonarrozespinaca"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewarrozcalaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/campana"
+        android:text="Arroz con calabaza y garbanzos"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@id/imageButtonarrozcalabaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonarrozcalabaza" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

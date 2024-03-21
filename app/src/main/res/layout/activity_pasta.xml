@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasta">
+
+    <ImageButton
+        android:id="@+id/imageButtonpastaatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewnewpastatwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonpastaatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastaputtanesca"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/espagueti_puttanesca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastaputtanesca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Espaguetis a la puttanesca"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastaputtanesca"
+        app:layout_constraintTop_toTopOf="@id/imageButtonpastaputtanesca" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastabrocoli"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_brocoli"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpastaputtanesca"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpastaputtanesca"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastabrocoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta con brocoli y limón"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastabrocoli"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpastabrocoli" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastaatun"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_atun"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpastabrocoli"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpastabrocoli"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastaatun"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Ensalada de pasta con atun y brocoli"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastaatun"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpastaatun" />
+
+    <ImageButton
+        android:id="@+id/imageButtonlazanacalabazin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/lazana_calabazin"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpastaatun"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpastaatun"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewlazanacalabazin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Lazaña de calabacin y pavo"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@id/imageButtonlazanacalabazin"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonlazanacalabazin" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastazanahoria"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_zanahoria"
+        app:layout_constraintStart_toStartOf="@id/imageButtonlazanacalabazin"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonlazanacalabazin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastazanahoria"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta con salsa de zanahoria y brocoli"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastazanahoria"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpastazanahoria" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpastacalabacin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_calabacin"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpastazanahoria"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpastazanahoria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpastacalabacin"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Pasta con calabacin y limón"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpastacalabacin"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpastacalabacin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
