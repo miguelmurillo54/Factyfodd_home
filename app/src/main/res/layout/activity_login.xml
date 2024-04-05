@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+    <ImageView
+        android:id="@+id/imageViewfondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewbanner"
+        android:layout_width="411dp"
+        android:layout_height="159dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gabton"
+        android:text="FACTY"
+        android:textColor="#FF4004"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/gabton"
+        android:text="FOOD"
+        android:textColor="#FF4004"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitle1"
+        app:layout_constraintVertical_bias="0.015" />
+
+
+    <EditText
+        android:id="@+id/editTextusername"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="text"
+
+        android:text="Username or email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewbanner" />
+
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Password"
+        app:layout_constraintStart_toStartOf="@+id/editTextusername"
+        app:layout_constraintTop_toBottomOf="@+id/editTextusername" />
+
+    <Button
+        android:id="@+id/buttonpasswordfailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lose"
+        android:text="Olvidaste la contraseña"
+        android:textColor="#00b0ff"
+        android:textColorHighlight="#FFC107"
+        android:textColorLink="#CDDC39"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextpassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextpassword" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Empezamos"
+        android:textColorHighlight="#FFC107"
+        android:textColorLink="#CDDC39"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextpassword"
+        app:layout_constraintStart_toEndOf="@+id/buttonpasswordfailed"
+        app:layout_constraintTop_toTopOf="@+id/buttonpasswordfailed" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Continuar sin registrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpasswordfailed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

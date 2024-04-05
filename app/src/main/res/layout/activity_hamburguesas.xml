@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hamburguesas">
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesasatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/texthamburguesastwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonhamburguesasatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesatofu"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/hamburguesa_tofu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesatofu"
+        android:layout_width="221dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesa de tofu y tomates"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesatofu"
+        app:layout_constraintTop_toTopOf="@id/imageButtonhamburguesatofu" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesalentejas"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hamburguesa_lentejas"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburguesatofu"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburguesatofu"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesalentejas"
+        android:layout_width="226dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesa de lentejas"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesalentejas"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonhamburguesalentejas" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesachampinones"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hamburguesa_champinones"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburguesalentejas"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburguesalentejas"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesachampinones"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburgesa de tofu y champiñones"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesachampinones"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonhamburguesachampinones" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesazanahoria"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hamburguesa_zanahoria"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburguesachampinones"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburguesachampinones"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesazanahoria"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesa de avena y zanahoria"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesazanahoria"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonhamburguesazanahoria" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesagarbanzos"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hamburguesa_garbanzos"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburguesazanahoria"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburguesazanahoria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesagarbanzos"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesa de garbanzos"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesagarbanzos"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonhamburguesagarbanzos" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhamburguesacoliflor"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hamburguesa_coliflor"
+        app:layout_constraintStart_toStartOf="@id/imageButtonhamburguesagarbanzos"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonhamburguesagarbanzos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewhamburguesacoliflor"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Hamburguesa de atun y coliflor"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonhamburguesacoliflor"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonhamburguesacoliflor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

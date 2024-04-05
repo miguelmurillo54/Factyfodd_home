@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carne">
+
+    <ImageButton
+        android:id="@+id/imageButtonmeetatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textmeetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Carne"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonmeetatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonternerazanahoria"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ternera_znahoria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewternerazanahoria"
+        android:layout_width="221dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Dados de tenera con zanahoria y champiñones"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonternerazanahoria"
+        app:layout_constraintTop_toTopOf="@id/imageButtonternerazanahoria" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbowlcarne"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bowl_quinua"
+        app:layout_constraintStart_toStartOf="@id/imageButtonternerazanahoria"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonternerazanahoria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbowlcarne"
+        android:layout_width="226dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Bowl de quinua con carne picada y lentejas"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbowlcarne"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonbowlcarne" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncalabacincarne"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cabacin_carne"
+        app:layout_constraintStart_toStartOf="@id/imageButtonbowlcarne"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonbowlcarne"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewcalabacincarne"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Calabacines con carne picada y tomate"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtoncalabacincarne"
+        app:layout_constraintTop_toTopOf="@+id/imageButtoncalabacincarne" />
+
+    <ImageButton
+        android:id="@+id/imageButtonchillicarne"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/chilli_carne"
+        app:layout_constraintStart_toStartOf="@id/imageButtoncalabacincarne"
+        app:layout_constraintTop_toBottomOf="@id/imageButtoncalabacincarne"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewchillicarne"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Chilli con carne"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtonchillicarne"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonchillicarne" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsolomillo"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/solomillo_cerdo"
+        app:layout_constraintStart_toStartOf="@id/imageButtonchillicarne"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonchillicarne"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewsolomillo"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Solomillo de cerdo con cebolla"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonsolomillo"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonsolomillo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonlomo"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/lomo_verduras"
+        app:layout_constraintStart_toStartOf="@id/imageButtonsolomillo"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsolomillo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewlomo"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Lomo  salteado con verduras"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonlomo"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonlomo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

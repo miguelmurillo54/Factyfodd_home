@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Factyfodd_home"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".hamburguesas"
+            android:exported="false" />
+        <activity
+            android:name=".snacks"
+            android:exported="false" />
+        <activity
+            android:name=".pizza"
+            android:exported="false" />
+        <activity
+            android:name=".carne"
+            android:exported="false" />
+        <activity
+            android:name=".bebidas"
+            android:exported="false" />
+        <activity
             android:name=".pescados"
             android:exported="false" />
         <activity

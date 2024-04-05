@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val btnnewrecipe: ImageButton= findViewById(R.id.imageButtonnewrecipe)
         btnnewrecipe.setOnClickListener{
 
-            val intent: Intent=Intent(this, NuevasRecetas:: class.java)
+            val intent: Intent=Intent(this, login:: class.java)
             startActivity(intent)
         }
 
@@ -53,10 +53,46 @@ class MainActivity : AppCompatActivity() {
             val intent: Intent=Intent(this, Sopa::class.java)
             startActivity(intent)
         }
+
         val btnfish: ImageButton= findViewById(R.id.imageButtonfish)
-        btnsoup.setOnClickListener{
+        btnfish.setOnClickListener{
 
             val intent: Intent=Intent(this, pescados::class.java)
+            startActivity(intent)
+        }
+
+        val btndrinks: ImageButton= findViewById(R.id.imageButtondrinks)
+        btndrinks.setOnClickListener{
+
+            val intent: Intent=Intent(this, bebidas::class.java)
+            startActivity(intent)
+        }
+
+        val btnmeet: ImageButton= findViewById(R.id.imageButtonmeet)
+        btnmeet.setOnClickListener{
+
+            val intent: Intent=Intent(this, carne::class.java)
+            startActivity(intent)
+        }
+
+        val btnpizza: ImageButton= findViewById(R.id.imageButtonpizza)
+        btnpizza.setOnClickListener{
+
+            val intent: Intent=Intent(this, pizza::class.java)
+            startActivity(intent)
+        }
+
+        val btnsnacks: ImageButton= findViewById(R.id.imageButtonsnacks)
+        btnpizza.setOnClickListener{
+
+            val intent: Intent=Intent(this, snacks::class.java)
+            startActivity(intent)
+        }
+
+        val btnhamburguer: ImageButton= findViewById(R.id.imageButtonhamburger)
+        btnpizza.setOnClickListener{
+
+            val intent: Intent=Intent(this, hamburguesas::class.java)
             startActivity(intent)
         }
     }

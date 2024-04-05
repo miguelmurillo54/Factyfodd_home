@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pizza">
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzaatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textpizzatwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonpizzaatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzachampinones"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/pizza_champinones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzachampinones"
+        android:layout_width="221dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza de champiñones"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzachampinones"
+        app:layout_constraintTop_toTopOf="@id/imageButtonpizzachampinones" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzabatata"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_batata"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzachampinones"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzachampinones"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzabatata"
+        android:layout_width="226dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza de batata con queso mozzarella"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzabatata"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzabatata" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzaverduras"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_vegetales"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzabatata"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzabatata"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzavegetales"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza de coliflor y atun con vegetales"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzaverduras"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzaverduras" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzacoliflor"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_coliflor"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzaverduras"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzaverduras"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzacoliflor"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza de coliflor con pimiento y cebolla"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzacoliflor"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzacoliflor" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzagarbanzos"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_garbanzos"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzacoliflor"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzacoliflor"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzagarbanzos"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza de garbanzos cocidos"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzagarbanzos"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzagarbanzos" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpizzaberenjena"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pizza_berenjena"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpizzagarbanzos"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpizzagarbanzos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpizzaberenjena"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Pizza berenjena"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpizzaberenjena"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpizzaberenjena" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

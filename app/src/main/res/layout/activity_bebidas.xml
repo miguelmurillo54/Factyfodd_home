@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bebidas">
+
+    <ImageButton
+        android:id="@+id/imageButtonbebidasatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/texbebidastwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Bebidas y refrescos"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonbebidasatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbebidafrutosrojos"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bebida_frutos_rojos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbebidasfrutosrojos"
+        android:layout_width="221dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Bebida de manzana, naranja y frutos rojos"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbebidafrutosrojos"
+        app:layout_constraintTop_toTopOf="@id/imageButtonbebidafrutosrojos" />
+
+    <ImageButton
+        android:id="@+id/imageButtonzumopiña"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/zumo_pina"
+        app:layout_constraintStart_toStartOf="@id/imageButtonbebidafrutosrojos"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonbebidafrutosrojos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewzumopiña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Zumo de piña y apio"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toEndOf="@id/imageButtonzumopiña"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonzumopiña" />
+
+    <ImageButton
+        android:id="@+id/imageButtonzumoplatano"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/zumo_platano"
+        app:layout_constraintStart_toStartOf="@id/imageButtonzumopiña"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonzumopiña"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewzumoplatano"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Zumo de platano y mango"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtonzumoplatano"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonzumoplatano" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbatidoplatano"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/batido_platano"
+        app:layout_constraintStart_toStartOf="@id/imageButtonzumoplatano"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonzumoplatano"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbatidoplatano"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Batido de platano y zanahoria"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbatidoplatano"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonbatidoplatano" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbatidoavena"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/batido_avena"
+        app:layout_constraintStart_toStartOf="@id/imageButtonbatidoplatano"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonbatidoplatano"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbatidoavena"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Batido de avena"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbatidoavena"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonbatidoavena" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbatidocalabaza"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/batido_calabaza"
+        app:layout_constraintStart_toStartOf="@id/imageButtonbatidoavena"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonbatidoavena"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewbatidocalabaza"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Batido de calabaza y canela"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonbatidocalabaza"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonbatidocalabaza" />
+</androidx.constraintlayout.widget.ConstraintLayout>

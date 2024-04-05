@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".snacks">
+
+    <ImageButton
+        android:id="@+id/imageButtonsnaksatras"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/atras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textsnakcstwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/campana"
+        android:text="Snaks"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonsnaksatras"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonyogurtfresa"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/yogurt_fresa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewyogurtfresa"
+        android:layout_width="221dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Yogurt de fresa coco y semillas"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@id/imageButtonyogurtfresa"
+        app:layout_constraintTop_toTopOf="@id/imageButtonyogurtfresa" />
+
+    <ImageButton
+        android:id="@+id/imageButtonyogurtgriego"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yogurt_griego_uvas_chia"
+        app:layout_constraintStart_toStartOf="@id/imageButtonyogurtfresa"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonyogurtfresa"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewyogurtgriego"
+        android:layout_width="226dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/campana"
+        android:text="Yogurt griego con uvas congeladas y chia"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@id/imageButtonyogurtgriego"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonyogurtgriego" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpudin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pudin_kiwi_nueces"
+        app:layout_constraintStart_toStartOf="@id/imageButtonyogurtgriego"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonyogurtgriego"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpudin"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/campana"
+        android:text="Pudin de chia con kiwi y nueces"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/imageButtonpudin"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonpudin" />
+
+    <ImageButton
+        android:id="@+id/imageButtonyogurtframbuesa"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yogurt_frambuesa"
+        app:layout_constraintStart_toStartOf="@id/imageButtonpudin"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonpudin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewframbuesa"
+        android:layout_width="227dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/campana"
+        android:text="Yogurt de frambuesa y piña"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toEndOf="@id/imageButtonyogurtframbuesa"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonyogurtframbuesa" />
+
+    <ImageButton
+        android:id="@+id/imageButtonmuffin"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/muffin_chocolate"
+        app:layout_constraintStart_toStartOf="@id/imageButtonyogurtframbuesa"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonyogurtframbuesa"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewmuffin"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Muffin vegano de chocolate"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@id/imageButtonmuffin"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonmuffin" />
+
+    <ImageButton
+        android:id="@+id/imageButtonheladoplatano"
+        android:layout_width="139dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/helado_platano"
+        app:layout_constraintStart_toStartOf="@id/imageButtonmuffin"
+        app:layout_constraintTop_toBottomOf="@id/imageButtonmuffin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewheladoplatano"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/campana"
+        android:text="Helados de platano con cacao"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@id/imageButtonheladoplatano"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonheladoplatano" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
