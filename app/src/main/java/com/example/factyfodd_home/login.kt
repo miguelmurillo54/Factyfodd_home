@@ -12,16 +12,22 @@ class login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val btnstart: Button = findViewById(R.id.buttonstart)
-        btnstart.setOnClickListener{
+        btnstart.setOnClickListener {
 
-            val intent: Intent = Intent(this, MainActivity:: class.java)
+            val intent: Intent = Intent(this, profile::class.java)
             startActivity(intent)
         }
 
         val btnpasswordfailed: Button = findViewById(R.id.buttonpasswordfailed)
-        btnpasswordfailed.setOnClickListener{
+        btnpasswordfailed.setOnClickListener {
 
-            val intent: Intent = Intent(this, reset_password:: class.java)
+            val intent: Intent = Intent(this, reset_password::class.java)
+            startActivity(intent)
+        }
+        val btncontinue: Button = findViewById(R.id.buttoncontinue)
+        btncontinue.setOnClickListener {
+
+            val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

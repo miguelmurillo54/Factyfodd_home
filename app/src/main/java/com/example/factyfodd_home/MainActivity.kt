@@ -1,10 +1,8 @@
 package com.example.factyfodd_home
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val btnnewrecipe: ImageButton= findViewById(R.id.imageButtonnewrecipe)
         btnnewrecipe.setOnClickListener{
 
-            val intent: Intent=Intent(this, login:: class.java)
+            val intent: Intent=Intent(this, NuevasRecetas:: class.java)
             startActivity(intent)
         }
 
@@ -83,17 +81,41 @@ class MainActivity : AppCompatActivity() {
         }
 
         val btnsnacks: ImageButton= findViewById(R.id.imageButtonsnacks)
-        btnpizza.setOnClickListener{
+        btnsnacks.setOnClickListener{
 
             val intent: Intent=Intent(this, snacks::class.java)
             startActivity(intent)
         }
 
         val btnhamburguer: ImageButton= findViewById(R.id.imageButtonhamburger)
-        btnpizza.setOnClickListener{
+        btnhamburguer.setOnClickListener{
 
             val intent: Intent=Intent(this, hamburguesas::class.java)
             startActivity(intent)
         }
+        val btnhome: ImageButton= findViewById(R.id.imageButtonhome)
+        btnhome.setOnClickListener{
+
+            val intent: Intent=Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+        val btnnews: ImageButton= findViewById(R.id.imageButtonnews)
+        btnnews.setOnClickListener{
+
+            val intent: Intent=Intent(this, news::class.java)
+            startActivity(intent)//
+        }
+        val btncomunity: ImageButton= findViewById(R.id.imageButtoncomunity)
+        btncomunity.setOnClickListener{
+
+            val intent: Intent=Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+        val btnprofile: ImageButton= findViewById(R.id.imageButtonprofile)
+        btnprofile.setOnClickListener{
+
+        val intent: Intent=Intent(this, profile::class.java)
+        startActivity(intent)
+    }
     }
 }

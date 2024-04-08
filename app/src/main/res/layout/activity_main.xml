@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="@+id/editTextTextbarrabusqueda"
         app:layout_constraintTop_toTopOf="@+id/editTextTextbarrabusqueda"
         app:layout_constraintVertical_bias="0.428"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textViewcategories"
@@ -106,7 +106,8 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/fibra"
         app:layout_constraintStart_toEndOf="@id/imageButtonbreakfast"
-        app:layout_constraintTop_toBottomOf="@id/textViewcategories" />
+        app:layout_constraintTop_toBottomOf="@id/textViewcategories"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewfibra"
@@ -298,7 +299,8 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/pescados_y_mariscos"
         app:layout_constraintStart_toStartOf="@+id/imageButtonvegetables"
-        app:layout_constraintTop_toBottomOf="@+id/textViewvegetables" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewvegetables"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewfish"
@@ -318,7 +320,8 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/batidos_y_refrescos"
         app:layout_constraintStart_toStartOf="@id/textViewsoup"
-        app:layout_constraintTop_toBottomOf="@id/textViewsoup" />
+        app:layout_constraintTop_toBottomOf="@id/textViewsoup"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textViewdrinks"
@@ -335,10 +338,11 @@
         android:id="@+id/imageButtonmeet"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:background="@drawable/carne"
         android:layout_marginTop="20dp"
+        android:background="@drawable/carne"
         app:layout_constraintStart_toStartOf="@id/textViewfish"
-        app:layout_constraintTop_toBottomOf="@id/textViewfish" />
+        app:layout_constraintTop_toBottomOf="@id/textViewfish"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewmeet"
@@ -355,10 +359,11 @@
         android:id="@+id/imageButtonpizza"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:background="@drawable/pizza"
         android:layout_marginTop="20dp"
+        android:background="@drawable/pizza"
         app:layout_constraintStart_toStartOf="@id/textViewdrinks"
-        app:layout_constraintTop_toBottomOf="@id/textViewdrinks" />
+        app:layout_constraintTop_toBottomOf="@id/textViewdrinks"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewpizza"
@@ -375,10 +380,11 @@
         android:id="@+id/imageButtonsnacks"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:background="@drawable/snacks"
         android:layout_marginTop="20dp"
+        android:background="@drawable/snacks"
         app:layout_constraintStart_toStartOf="@id/textViewmeet"
-        app:layout_constraintTop_toBottomOf="@id/textViewmeet" />
+        app:layout_constraintTop_toBottomOf="@id/textViewmeet"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewsnacks"
@@ -395,10 +401,11 @@
         android:id="@+id/imageButtonhamburger"
         android:layout_width="186dp"
         android:layout_height="113dp"
-        android:background="@drawable/hamburguesa"
         android:layout_marginTop="20dp"
+        android:background="@drawable/hamburguesa"
         app:layout_constraintStart_toStartOf="@id/textViewpizza"
-        app:layout_constraintTop_toBottomOf="@id/textViewpizza"/>
+        app:layout_constraintTop_toBottomOf="@id/textViewpizza"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textViewhamburger"
@@ -411,7 +418,42 @@
         app:layout_constraintStart_toStartOf="@id/imageButtonhamburger"
         app:layout_constraintTop_toBottomOf="@id/imageButtonhamburger" />
 
+    <ImageButton
+        android:id="@+id/imageButtonhome"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,SpeakableTextPresentCheck" />
 
+    <ImageButton
+        android:id="@+id/imageButtonnews"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:background="@drawable/news"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonhome"
+        tools:ignore="DuplicateIds,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncomunity"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:background="@drawable/comunity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonnews"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonprofile"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:background="@drawable/profile_dos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtoncomunity"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
