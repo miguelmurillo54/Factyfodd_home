@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comunidaduno">
+
+    <ImageView
+        android:id="@+id/imageViewcomunidaduno"
+        android:layout_width="389dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/jello_cake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomunidaduno" />
+
+    <TextView
+        android:id="@+id/textViewcomunidaduno"
+        android:layout_width="388dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/campana"
+        android:text="Pastel de gelatina de vidrio "
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewdescreipcioncomunidaduno"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Prepárate para deslumbrar tu paladar con el pastel de gelatina de vidrio roto, un postre visualmente llamativo y delicioso. Esta receta combina coloridas capas de cubos de gelatina aromatizados suspendidos en una mezcla cremosa de leche condensada azucarada, creando una delicia divertida y llamativa. Ya sea que esté organizando una fiesta o simplemente anhele un postre divertido y sabroso, ¡este pastel seguramente será un éxito!"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewcomunidaduno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewcomunidaduno"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewcomunidaduno" />
+
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewdescreipcioncomunidaduno"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdescreipcioncomunidaduno" />
+
+
+    <TextView
+        android:id="@+id/textViewrecetacomunidaduno"
+        android:layout_width="391dp"
+        android:layout_height="298dp"
+        android:layout_marginBottom="44dp"
+        android:inputType="textMultiLine"
+        android:text="1) Coloque cada sabor de gelatina en tazones separados, Agregue 1 taza de agua hirviendo a cada tazón y revuelva suavemente hasta que la gelatina se haya disuelto.
+        2)	Transfiera cada mezcla de gelatina a un molde para pan de 8x4 pulgadas. Enfríe en el refrigerador hasta que esté firme, aproximadamente de 3 horas a toda la noche.
+        3)	Use un cuchillo para cortar cada sabor de gelatina en cubos de 1/2 pulgada. Agregue los cubos a una sartén Bundt de 12 tazas, teniendo cuidado de no romperlos.
+        4)	En un tazón grande, disuelva la gelatina sin sabor en las 4 tazas restantes de agua hirviendo. Deje enfriar un poco, luego agregue la leche condensada azucarada hasta que esté bien combinada.
+        5)	Deje reposar hasta que se enfríe al tacto (para evitar que se derritan los cubos de gelatina), luego vierta uniformemente sobre los cubos de gelatina. Coloque en el refrigerador durante la noche hasta que esté completamente cuajado.
+        6)	Desmoldar con cuidado y cortar en rodajas para servir.
+        7)	¡Disfrutar!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewdescreipcioncomunidaduno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

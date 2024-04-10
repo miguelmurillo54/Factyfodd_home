@@ -16,6 +16,12 @@ class NuevasRecetas : AppCompatActivity() {
             val intent: Intent=Intent(this,MainActivity ::class.java)
             startActivity(intent)
         }
+        val btnnewrecipeuno: ImageButton= findViewById(R.id.imageButtonpanqueques)
+        btnnewrecipeuno.setOnClickListener{
+
+            val intent: Intent=Intent(this,newrecipeuno ::class.java)
+            startActivity(intent)
+        }
     }
 
 }

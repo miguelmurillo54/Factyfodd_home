@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Factyfodd_home"
         tools:targetApi="31">
         <activity
+            android:name=".newrecipeuno"
+            android:exported="false" />
+        <activity
+            android:name=".comunidaddos"
+            android:exported="false" />
+        <activity
+            android:name=".item_layout"
+            android:exported="false" />
+        <activity
+            android:name=".comunidaduno"
+            android:exported="false" />
+        <activity
+            android:name=".comunidad"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".social"
+            android:exported="false" />
+        <activity
+            android:name=".comunity"
+            android:exported="false" />
+        <activity
             android:name=".news"
             android:exported="false"
             android:label="@string/title_activity_news"

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comunidaddos">
+
+    <ImageView
+        android:id="@+id/imageViewcomunidaddos"
+        android:layout_width="389dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hasselback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomunidaddos" />
+
+    <TextView
+        android:id="@+id/textViewcomunidaddos"
+        android:layout_width="388dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/campana"
+        android:text="Batatas Hasselback"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewdescreipcioncomunidaddos"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Las batatas Hasselback son un postre inesperado pero impresionante. Las batatas caramelizadas tibias y mantecosas se cubren con chocolate derretido, pistachos y coco y se sirven con helado de vainilla."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewcomunidaddos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewcomunidaddos"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewcomunidaddos" />
+
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewdescreipcioncomunidaddos"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdescreipcioncomunidaddos" />
+
+
+    <TextView
+        android:id="@+id/textViewrecetacomunidaddos"
+        android:layout_width="391dp"
+        android:layout_height="298dp"
+        android:layout_marginBottom="44dp"
+        android:inputType="textMultiLine"
+        android:text="1)	Precaliente el horno a 425 ° F (220 ° C). Cubra una bandeja para hornear con papel pergamino.
+        2)	Lave y frote las batatas, luego séquelas con una toalla de papel o un paño de cocina limpio. Use un cuchillo afilado para cortar rodajas de 1/8 de pulgada de grosor a lo largo de cada papa. Puede ser útil colocar mangos de cuchara de madera, palillos o cuchillos de mantequilla a ambos lados de la batata como guía para evitar cortarla por completo.
+        3)	En un tazón pequeño, mezcle la mantequilla derretida, el azúcar morena, la canela, la vainilla y la sal hasta que estén bien combinados.
+        4)	Coloque las papas en la bandeja para hornear preparada. Use una brocha de repostería para untar la mitad de la mezcla de mantequilla sobre las papas.
+        5)	Ase durante 30 minutos. Retira las patatas del horno. Use un tenedor para separar suavemente las rodajas de papa y cepille la mezcla de mantequilla restante, permitiendo que se filtre entre las rodajas. Ase por 30 minutos más, o hasta que las papas estén crujientes en los bordes y tiernas en el medio.
+        6)	Mientras tanto, en una olla pequeña a fuego lento, calienta el chocolate y el aceite de coco, revolviendo con frecuencia, hasta que se derrita y quede suave.
+        7)	Retire las papas del horno y transfiéralas a un plato. Rocíe con el jarabe de arce y el chocolate derretido, luego espolvoree con los pistachos y las hojuelas de coco.
+        8)	Sirve con una bola de helado de vainilla y ¡disfruta!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewdescreipcioncomunidaddos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+</androidx.constraintlayout.widget.ConstraintLayout>

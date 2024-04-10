@@ -4,90 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".news">
+    tools:context=".comunidad">
 
-
-
-
-    <ImageView
-        android:id="@+id/imageViewnewsuno"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/canela"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnews" />
 
     <TextView
-        android:id="@+id/textViewnewsuno"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
-        android:layout_marginEnd="3dp"
-        android:fontFamily="@font/campana"
-        android:text="Los beneficios para la salud de la Miel de Canela"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewsuno"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewsuno"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewsuno" />
-
-    <TextView
-        android:id="@+id/textViewnews"
+        android:id="@+id/textViewcomunity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/campana"
-        android:text="Noticias"
+        android:text="Nuestra Comunidad"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageViewnewsdos"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/oregano"
+
+    <ImageButton
+        android:id="@+id/imageButtoncomunidaduno"
+        android:layout_width="389dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/jello_cake"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnewsuno" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomunity"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textViewnewsdos"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
+        android:id="@+id/textViewcomunidaduno"
+        android:layout_width="388dp"
+        android:layout_height="63dp"
         android:layout_marginEnd="3dp"
         android:fontFamily="@font/campana"
-        android:text="Los beneficios del aceite de oregano"
+        android:text="Pastel de gelatina de vidrio "
         android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewsdos"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewsdos"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewsdos" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButtoncomunidaduno"
+        app:layout_constraintStart_toStartOf="@+id/imageButtoncomunidaduno"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtoncomunidaduno" />
 
-    <ImageView
-        android:id="@+id/imageViewnewstres"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/aguacate"
+    <ImageButton
+        android:id="@+id/imageButtoncomunidaddos"
+        android:layout_width="389dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hasselback"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnewsdos" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomunidaduno"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textViewnewstres"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
+        android:id="@+id/textViewcomunidaddos"
+        android:layout_width="388dp"
+        android:layout_height="63dp"
         android:layout_marginEnd="3dp"
         android:fontFamily="@font/campana"
-        android:text="Los beneficios del Camaron y el aguacate"
+        android:text="Batatas Hasselback"
         android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewstres"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewstres"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewstres" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButtoncomunidaddos"
+        app:layout_constraintStart_toStartOf="@+id/imageButtoncomunidaddos"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtoncomunidaddos" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncomunidadtres"
+        android:layout_width="389dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomunidaddos" />
+
+    <TextView
+        android:id="@+id/textViewcomunidadtres"
+        android:layout_width="388dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="@font/campana"
+        android:text="Patatas de pub crujientes"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtoncomunidadtres"
+        app:layout_constraintStart_toStartOf="@+id/imageButtoncomunidadtres"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtoncomunidadtres" />
 
 
 

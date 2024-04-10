@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
         val btncomunity: ImageButton= findViewById(R.id.imageButtoncomunity)
         btncomunity.setOnClickListener{
 
-            val intent: Intent=Intent(this, MainActivity::class.java)
+            val intent: Intent=Intent(this, comunidad::class.java)
             startActivity(intent)
         }
         val btnprofile: ImageButton= findViewById(R.id.imageButtonprofile)
