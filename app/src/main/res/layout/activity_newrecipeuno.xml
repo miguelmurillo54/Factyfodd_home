@@ -51,9 +51,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipedescripcionuno" />
 
     <TextView
-        android:id="@+id/textViewnewrecipereceta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textViewnewreciperecetauno"
+        android:layout_width="369dp"
+        android:layout_height="245dp"
         android:text="1)	En un tazón mediano, agregue la harina, el azúcar, el polvo de hornear y la sal, y revuelva para combinar.
 2)	En un tazón mediano o taza medidora de líquidos, agregue la leche de almendras, el vinagre de sidra de manzana y la vainilla, y revuelva para combinar.
 3)	Vierta la mezcla líquida en la mezcla seca y bata hasta que quede suave.

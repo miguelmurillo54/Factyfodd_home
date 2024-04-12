@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newrecipecinco">
+
+    <ImageView
+        android:id="@+id/imageViewnewrecipecinco"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/alitas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipecinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alitas de pollo a la pimienta roja"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipecinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewnewrecipecinco"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewnewrecipecinco" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipedescripcioncinco"
+        android:layout_width="368dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="8dp"
+        android:text="Las alitas en salmuera de cerveza se sazonan con pimentón ahumado, cebolla, ajo, chile en polvo y azúcar morena, luego se mezclan en la freidora para obtener un acabado crujiente. Llévalo a un nivel superior y sírvelos junto con una salsa barbacoa blanca picante con toques de rábano picante y pimienta de cayena."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipecinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipecinco"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipecinco" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipedescripcioncinco"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipedescripcioncinco" />
+
+    <TextView
+        android:id="@+id/textViewnewreciperecetacinco"
+        android:layout_width="369dp"
+        android:layout_height="245dp"
+        android:text="1.	Las alitas en salmuera de cerveza se sazonan con pimentón ahumado, cebolla, ajo, chile en polvo y azúcar morena, luego se mezclan en la freidora para obtener un acabado crujiente. Llévalo a un nivel superior y sírvelos junto con una salsa barbacoa blanca picante con toques de rábano picante y pimienta de cayena.
+2.	En un tazón pequeño, mezcle el pimentón, la cebolla en polvo, las 2 cucharaditas de pimienta negra restantes, el ajo en polvo, el chile en polvo, la azúcar morena y las 2 cucharaditas de sal restantes.
+3.	Prepara la salsa barbacoa blanca-roja: En un tazón mediano, mezcle la mayonesa, el jugo de limón, el vinagre de sidra de manzana, la salsa Worcestershire, el rábano picante, la sal, las semillas de apio y la pimienta de cayena. Cubra y refrigere hasta que esté listo para usar.
+4.	Precaliente la freidora a 320 ° F (160 ° C) durante 20 minutos.
+5.	Retire las alitas de la salmuera y séquelas con toallas de papel. Transfiera las alitas a un tazón grande. Rocíe el aceite de canola sobre las alas y revuelva para cubrir por completo, luego agregue la mezcla de especias y revuelva nuevamente hasta que esté uniformemente cubierto.
+6.	Coloque las alitas sazonadas en la freidora en una sola capa, trabajando en tandas si es necesario, y fría hasta que comiencen a dorarse, aproximadamente 15 minutos. Dale la vuelta a las alitas y continúa cocinando hasta que comiencen a estar crujientes y casi cocidas, unos 15 minutos más. Aumente el fuego a 360 ° F (182 ° C) y continúe cocinando hasta que las alitas estén muy crujientes, aproximadamente 5 minutos más.
+7.	Sirve las alitas con la salsa barbacoa blanca-roja.
+8.	¡Disfrutar!
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewnewrecipedescripcioncinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

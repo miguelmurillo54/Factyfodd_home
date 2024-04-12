@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Factyfodd_home"
         tools:targetApi="31">
         <activity
+            android:name=".newrecipeseis"
+            android:exported="false" />
+        <activity
+            android:name=".newrecipecinco"
+            android:exported="false" />
+        <activity
+            android:name=".newrecipecuatro"
+            android:exported="false" />
+        <activity
+            android:name=".newrecipetres"
+            android:exported="false" />
+        <activity
+            android:name=".newrecipedos"
+            android:exported="false" />
+        <activity
             android:name=".newrecipeuno"
             android:exported="false" />
         <activity

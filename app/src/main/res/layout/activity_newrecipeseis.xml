@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newrecipeseis">
+
+    <ImageView
+        android:id="@+id/imageViewnewrecipeseis"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/albondigas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipeseis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Albondigas con salsa de queso"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipeseis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewnewrecipeseis"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewnewrecipeseis" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipedescripcionseis"
+        android:layout_width="368dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="8dp"
+        android:text="¡Saluda a este delicioso horneado de albóndigas con queso que hará bailar a tus papilas gustativas! Con mozzarella pegajosa y albóndigas saladas, este plato es perfecto para una noche acogedora o una reunión familiar."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipeseis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipeseis"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipeseis" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipedescripcionseis"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipedescripcionseis" />
+
+    <TextView
+        android:id="@+id/textViewnewreciperecetaseis"
+        android:layout_width="369dp"
+        android:layout_height="245dp"
+        android:text="1.	En un tazón grande, combine la carne molida, la salchicha italiana, el ajo, el perejil, el queso parmesano, la sal, la pimienta, el pan rallado, los huevos y la leche. Mezcle hasta que todo esté completamente infundido.
+2.	Enrolle en albóndigas de 4 a 5 onzas (113 a 142 g). Para obtener cantidades uniformes, use una cuchara de helado de tamaño mediano.
+3.	Precaliente el horno a 425 ° F (220 ° C).
+4.	A fuego medio, agregue 1 cucharada de aceite de oliva a una sartén y dore las albóndigas por ambos lados durante unos 2-3 minutos o hasta que cree un buen dorado crujiente. Cocine aproximadamente a la mitad. Terminarán de cocinarse en el horno.
+5.	En una cazuela, esparce unas cucharadas de salsa marinara en el fondo de la sartén para evitar que se pegue. Luego coloque las albóndigas en la cazuela y agregue el frasco restante de salsa marinara. Cubra con 2 tazas de queso mozzarella rallado.
+6.	Cubra con papel de aluminio y hornee a 425 ° F (220 ° C) durante 25 minutos o hasta que el queso se derrita por completo y las albóndigas estén completamente cocidas.
+7.	Sirve y decora con perejil.
+8.	¡Disfrutar!
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewnewrecipedescripcionseis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

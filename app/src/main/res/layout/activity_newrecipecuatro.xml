@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newrecipecuatro">
+
+    <ImageView
+        android:id="@+id/imageViewnewrecipecuatro"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pan_calabacin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipecuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pan de calabacin"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipecuatro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewnewrecipecuatro"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewnewrecipecuatro" />
+
+    <TextView
+        android:id="@+id/textViewnewrecipedescripcioncuatro"
+        android:layout_width="368dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="8dp"
+        android:text="Este pan de calabacín con chispas de chocolate amargo es una versión más saludable de un dulce clásico. La adición de calabacín agrega humedad y nutrientes, mientras que el chocolate negro agrega una rica dulzura."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewnewrecipecuatro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipecuatro"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipecuatro" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewnewrecipedescripcioncuatro"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnewrecipedescripcioncuatro" />
+
+    <TextView
+        android:id="@+id/textViewnewreciperecetacuatro"
+        android:layout_width="369dp"
+        android:layout_height="245dp"
+        android:text="1.	Corta los extremos del calabacín y ralla en el lado grande de un rallador de caja. Reserva 2 tazas.
+2.	Precaliente el horno a 375 ° F (190 ° C).
+3.	Batir el agua tibia y la miel.
+4.	Agregue los huevos, el yogur, la miel y el extracto de vainilla. Batidor.
+5.	Agregue el calabacín y bata para combinar.
+6.	Agregue la harina, el bicarbonato de sodio, la nuez moscada y la sal. Mezclar para combinar
+7.	Incorpora las chispas de chocolate a la masa.
+8.	Vierte la masa en un molde para pan engrasado de 23 x 12 cm (9×5 pulgadas).
+9.	Cubra con semillas de lino, como desee.
+10.	Hornee durante 50-60 minutos, o hasta que un palillo salga limpio del medio del pan.
+11.	¡Deje enfriar durante 15 minutos antes de servir!
+12.	¡Disfrutar!
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewnewrecipedescripcioncuatro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
