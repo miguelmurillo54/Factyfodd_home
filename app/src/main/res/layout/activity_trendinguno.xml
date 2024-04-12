@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trendinguno">
+
+    <ImageView
+        android:id="@+id/imageViewtrendinguno"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/huevos_con_tomate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtrendinguno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sarten de huevos con tomate"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendinguno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewtrendinguno"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtrendinguno" />
+
+    <TextView
+        android:id="@+id/textViewtrendingdescripcionuno"
+        android:layout_width="368dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="8dp"
+        android:text="Un plato del norte de África y Oriente Medio elaborado con huevos escalfados en una salsa de tomate picante con chorizo y pimientos morrones."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendinguno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendinguno"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendinguno" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingdescripcionuno"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingdescripcionuno" />
+
+    <TextView
+        android:id="@+id/textViewnewreciperecetaseis"
+        android:layout_width="369dp"
+        android:layout_height="245dp"
+        android:text="1.	Calienta el aceite en un sartén a fuego medio.
+2.	Agregue el chorizo, la cebolla, el ajo y el pimiento rojo, cocinando durante 2 a 3 minutos o hasta que estén fragantes.
+3.	Agregue el pimentón, el comino molido, la pimienta y la sal. Revuelva para combinar, cocinando durante 6 a 8 minutos, o hasta que las verduras comiencen a ablandarse.
+4.	Vierta los tomates enlatados en la sartén, reduzca el fuego y deje hervir a fuego lento durante 20 a 25 minutos, o hasta que la salsa comience a espesarse
+5.	Con el dorso de una cuchara, haga 4 pocillos en la salsa de tomate. Rompe un huevo en cada pocillo.
+6.	Cubra la sartén con una tapa y cocine de 6 a 8 minutos, o hasta que los huevos estén cocidos.
+7.	Cubra con queso feta desmenuzado y perejil picado.
+8.	¡Disfrutar!
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripcionuno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

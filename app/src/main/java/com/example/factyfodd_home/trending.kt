@@ -16,5 +16,11 @@ class trending : AppCompatActivity() {
             val intent: Intent = Intent(this,MainActivity ::class.java)
             startActivity(intent)
         }
+        val btnntrendinguno: ImageButton = findViewById(R.id.imageButtonhuevostomate)
+        btnntrendinguno.setOnClickListener{
+
+            val intent: Intent = Intent(this,trendinguno ::class.java)
+            startActivity(intent)
+        }
     }
 }

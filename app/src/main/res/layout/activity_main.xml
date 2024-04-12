@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/Buttonsearch"
@@ -63,7 +63,7 @@
         android:background="@drawable/ensalada"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewcategories"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textViewsalad"
@@ -203,7 +203,8 @@
                 android:text="Arroz"
                 android:textSize="30dp"
                 app:layout_constraintStart_toStartOf="@+id/imageButtonrice"
-                app:layout_constraintTop_toBottomOf="@+id/imageButtonrice" />
+                app:layout_constraintTop_toBottomOf="@+id/imageButtonrice"
+        tools:ignore="SpUsage" />
 
     <ImageButton
         android:id="@+id/imageButtonvegetables"
@@ -395,7 +396,8 @@
         android:textSize="30dp"
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@id/imageButtonsnacks"
-        app:layout_constraintTop_toBottomOf="@id/imageButtonsnacks"/>
+        app:layout_constraintTop_toBottomOf="@id/imageButtonsnacks"
+        tools:ignore="SpUsage" />
 
     <ImageButton
         android:id="@+id/imageButtonhamburger"
