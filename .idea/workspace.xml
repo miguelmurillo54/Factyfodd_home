@@ -132,6 +132,11 @@
           <theme>@style/Theme.Factyfodd_home</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trendinguno.xml">
+        <config>
+          <theme>@style/Theme.Factyfodd_home</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vegetales.xml">
         <config>
           <theme>@style/Theme.Factyfodd_home</theme>
@@ -143,7 +148,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9785d34b-486d-4cee-a0cf-02f3ec7308d3" name="Changes" comment="añade nuevas recetas falta ordenar" />
+    <list default="true" id="9785d34b-486d-4cee-a0cf-02f3ec7308d3" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,6 +214,7 @@
         <option value="Kotlin Class" />
         <option value="valueResourceFile" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -249,7 +258,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USUARIO/Desktop/prueba git/Factyfodd_home",
+    "last_opened_file_path": "C:/Users/USUARIO/Desktop/Facty Food/Factyfood_home",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -302,7 +311,7 @@
       <recent name="com.example.factyfodd_home" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.Unnamed">
+  <component name="RunManager" selected="Android App.main">
     <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
       <module name="Factyfodd_home.app.main" />
       <option name="DEPLOY" value="true" />
@@ -499,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712937621918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1712946109477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712946109477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -508,6 +525,7 @@
     <MESSAGE value="add barra navegacion y otros" />
     <MESSAGE value="inicion con el montaje de las recetas" />
     <MESSAGE value="añade nuevas recetas falta ordenar" />
-    <option name="LAST_COMMIT_MESSAGE" value="añade nuevas recetas falta ordenar" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
