@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trendingtres">
+
+    <ImageView
+        android:id="@+id/imageViewtrendingtres"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/pasta_con_langostinos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtrendingtres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pasta al curry con langostinos y verduras"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendingtres"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewtrendingtres"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtrendingtres" />
+
+    <TextView
+        android:id="@+id/textViewtrendingdescripciontres"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="La receta de hoy es una fusión de la pasta italiana con un estilo Tailandes ideal para personas amantes del curry."
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendingtres"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingtres"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingtres" />
+
+    <TextView
+        android:id="@+id/textViewingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Ingredientes"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingdescripciontres"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingdescripciontres" />
+
+    <TextView
+        android:id="@+id/textViewntrendingingredienteslista"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="•	400 g de spaghetti Garofalo
+•	50 ml de aceite de oliva virgen extra
+•	500 g. langostinos (frescos o congelados, a vuestra elección)
+•	Sal y pimienta negra recién molida (al gusto de cada casa)
+•	1 cebolla grande
+•	150 g. zanahorias
+•	150 g. pimiento rojo
+•	200 g. calabacín
+•	1 tomate grande maduro
+•	1 diente de ajo
+•	1 cayenas
+•	La ralladura de una mandarina grande o dos pequeñas
+•	1 cdita. tipo postre de curry amarillo
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripciontres"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/textViewingredientes"
+        app:layout_constraintTop_toBottomOf="@+id/textViewingredientes" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewntrendingingredienteslista"
+        app:layout_constraintTop_toBottomOf="@+id/textViewntrendingingredienteslista" />
+
+    <TextView
+        android:id="@+id/textViewtrendingdospreparacion"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="1.	Pelamos la cebolla, las zanahorias, los dientes de ajo y lavamos la mandarina, el tomate y el pimiento. Cortamos la cebolla en juliana fina. Cortamos el pimiento, el ajo, el calabacín y la zanahoria en daditos pequeños.
+2.	Una vez que tenemos los vegetales preparados añadimos un buen chorro de aceite de oliva virgen extra a la cazuela. Añadimos el ajo con la cayena sin semillas y los sofreímos unos segundos hasta que empiecen a dorarse. Incorporamos la cebolla a la cazuela del aceite y la sofreímos, a fuego medio, durante 5 minutos.
+3.	Añadimos el resto de vegetales (zanahoria, pimientos y calabacín), salpimentamos y dejamos que se cocinen 5 minutos nada más. Incorporamos el tomate pelado y en dados, la ralladura de mandarina y el curry. Cocinamos 15 minutos a fuego medio/bajo.
+4.	Descongelamos los langostinos en la nevera la noche antes. Los pelamos, quitamos la cabeza y la cáscara que los protege. Ponemos agua en una cazuela e incorporamos las pieles y cabezas de los langostinos. Cocemos a fuego medio durante 10 minutos.
+5.	Colamos el agua de marisco que hemos improvisado y la reservamos para cocer después la pasta. Una vez que tenemos los langostinos ya pelados les quitamos el intestino (el hilo negro que tiene en el centro).
+6.	Añadimos los langostinos crudos a la cazuela de los vegetales. Pasamos los langostinos sólo unos 2 minutos cocinar en exceso, lo justo para que se pongan rosados. Probamos de sal y si es necesario salpimentamos. Una vez que tenemos la salsa nos ponemos con la pasta.
+7.
+Calentamos en una cazuela un litro de agua (en este caso con parte del caldo de langostinos que tenemos reservado) por cada 100 g de pasta, es la medida recomendada por persona. Estas proporciones, que normalmente vienen indicadas en los envases, ayudan a que la pasta no se pegue entre ella. Y siempre intenta utilizar una cazuela grande, la mayor de tu cocina. Si cocinas muchas veces pasta será muy útil comprar una cazuela para esas ocasiones, una buena inversión.
+8.	Cuando empiece a hervir a borbotones echamos 1 puñado generoso de sal, unas 2 cucharadas rasas por cada 500 gramos de pasta. Seguidamente añadimos la pasta, siempre toda junta.
+9.	Removemos con una cuchara de madera para que las espirales no se peguen y queden sueltas. En el reverso del paquete viene el tiempo de cocción. Debemos guiarnos por estas instrucciones porque para cada tipo es distinto. En este caso son 10 minutos, así conseguiremos lo que se llama pasta “al dente” o en su punto justo. Es decir, que no se pase, aunque un gran consejo es probarla casi al final por si acaso en el envase nos engañan.
+10.	Una vez transcurrido el tiempo la escurrimos inmediatamente y la juntamos con la salsa
+11.	Añadimos los spaghetti recién hechos a la salsa de curry y mandarina. Mezclamos todo con una cuchara para que se junten bien los sabores. Opcionalmente decoramos cada plato con más pimienta negra molida. Siempre al gusto o con un poco de cilantro bien picado, que le va de lujo a este plato.
+
+
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripciontres"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

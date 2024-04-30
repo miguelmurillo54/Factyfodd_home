@@ -32,14 +32,40 @@
     <TextView
         android:id="@+id/textViewtrendingdescripcionuno"
         android:layout_width="368dp"
-        android:layout_height="99dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Un plato del norte de África y Oriente Medio elaborado con huevos escalfados en una salsa de tomate picante con chorizo y pimientos morrones."
         app:layout_constraintEnd_toEndOf="@+id/imageViewtrendinguno"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textViewtrendinguno"
         app:layout_constraintTop_toBottomOf="@+id/textViewtrendinguno" />
 
+    <TextView
+        android:id="@+id/textViewingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Ingredientes"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingdescripcionuno"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingdescripcionuno" />
+
+    <TextView
+        android:id="@+id/textViewntrendingingredienteslista"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="4 huevos
+1 diente de ajo
+600 gr de tomate
+2 cucharaditas de sal
+2 cucharadas de aceite de Oliva
+
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripcionuno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/textViewingredientes"
+        app:layout_constraintTop_toBottomOf="@+id/textViewingredientes" />
     <TextView
         android:id="@+id/textViewpreparacion"
         android:layout_width="wrap_content"
@@ -47,13 +73,13 @@
         android:fontFamily="@font/campana"
         android:text="Preparacion"
         android:textSize="40dp"
-        app:layout_constraintStart_toStartOf="@+id/textViewtrendingdescripcionuno"
-        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingdescripcionuno" />
+        app:layout_constraintStart_toStartOf="@+id/textViewntrendingingredienteslista"
+        app:layout_constraintTop_toBottomOf="@+id/textViewntrendingingredienteslista" />
 
     <TextView
-        android:id="@+id/textViewnewreciperecetaseis"
+        android:id="@+id/textViewtrendingunoreceta"
         android:layout_width="369dp"
-        android:layout_height="245dp"
+        android:layout_height="wrap_content"
         android:text="1.	Calienta el aceite en un sartén a fuego medio.
 2.	Agregue el chorizo, la cebolla, el ajo y el pimiento rojo, cocinando durante 2 a 3 minutos o hasta que estén fragantes.
 3.	Agregue el pimentón, el comino molido, la pimienta y la sal. Revuelva para combinar, cocinando durante 6 a 8 minutos, o hasta que las verduras comiencen a ablandarse.

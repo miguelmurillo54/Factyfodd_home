@@ -22,5 +22,17 @@ class trending : AppCompatActivity() {
             val intent: Intent = Intent(this,trendinguno ::class.java)
             startActivity(intent)
         }
+        val btnntrendingdos: ImageButton = findViewById(R.id.imageButtoncookies)
+        btnntrendingdos.setOnClickListener{
+
+            val intent: Intent = Intent(this,trendingdos ::class.java)
+            startActivity(intent)
+        }
+        val btnntrendingtres: ImageButton = findViewById(R.id.imageButtonpastalangostinos)
+        btnntrendingtres.setOnClickListener{
+
+            val intent: Intent = Intent(this,trendingtres ::class.java)
+            startActivity(intent)
+        }
     }
 }
