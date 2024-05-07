@@ -7,89 +7,137 @@
     tools:context=".news">
 
 
-
-
-    <ImageView
-        android:id="@+id/imageViewnewsuno"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/canela"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnews" />
-
-    <TextView
-        android:id="@+id/textViewnewsuno"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
-        android:layout_marginEnd="3dp"
-        android:fontFamily="@font/campana"
-        android:text="Los beneficios para la salud de la Miel de Canela"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewsuno"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewsuno"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewsuno" />
-
-    <TextView
-        android:id="@+id/textViewnews"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/campana"
-        android:text="Noticias"
-        android:textSize="40dp"
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="685dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/imageViewnewsdos"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/oregano"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnewsuno" />
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textViewnewsdos"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
-        android:layout_marginEnd="3dp"
-        android:fontFamily="@font/campana"
-        android:text="Los beneficios del aceite de oregano"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewsdos"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewsdos"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewsdos" />
-
-    <ImageView
-        android:id="@+id/imageViewnewstres"
-        android:layout_width="381dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/aguacate"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewnewsdos" />
-
-    <TextView
-        android:id="@+id/textViewnewstres"
-        android:layout_width="378dp"
-        android:layout_height="97dp"
-        android:layout_marginEnd="3dp"
-        android:fontFamily="@font/campana"
-        android:text="Los beneficios del Camaron y el aguacate"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewnewstres"
-        app:layout_constraintStart_toStartOf="@+id/imageViewnewstres"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewnewstres" />
+            <TextView
+                android:id="@+id/textViewnews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/campana"
+                android:text="Noticias"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
+            <ImageView
+                android:id="@+id/imageViewnewsuno"
+                android:layout_width="381dp"
+                android:layout_height="226dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/canela"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewnews" />
+
+            <TextView
+                android:id="@+id/textViewnewsuno"
+                android:layout_width="378dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/campana"
+                android:text="Los beneficios para la salud de la Miel de Canela"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewnewsuno"
+                app:layout_constraintStart_toStartOf="@+id/imageViewnewsuno"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewnewsuno" />
+
+
+            <ImageView
+                android:id="@+id/imageViewnewsdos"
+                android:layout_width="381dp"
+                android:layout_height="226dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/oregano"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewnewsuno" />
+
+            <TextView
+                android:id="@+id/textViewnewsdos"
+                android:layout_width="378dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/campana"
+                android:text="Los beneficios del aceite de oregano"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewnewsdos"
+                app:layout_constraintStart_toStartOf="@+id/imageViewnewsdos"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewnewsdos" />
+
+            <ImageView
+                android:id="@+id/imageViewnewstres"
+                android:layout_width="381dp"
+                android:layout_height="226dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/aguacate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewnewsdos" />
+
+            <TextView
+                android:id="@+id/textViewnewstres"
+                android:layout_width="378dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/campana"
+                android:text="Los beneficios del Camaron y el aguacate"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewnewstres"
+                app:layout_constraintStart_toStartOf="@+id/imageViewnewstres"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewnewstres" />
+
+            <ImageView
+                android:id="@+id/imageViewnewscuatro"
+                android:layout_width="381dp"
+                android:layout_height="226dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/newfour"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewnewstres" />
+
+            <TextView
+                android:id="@+id/textViewnewscuatro"
+                android:layout_width="378dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/campana"
+                android:text="Comer o no comer bichos"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewnewstres"
+                app:layout_constraintStart_toStartOf="@+id/imageViewnewstres"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewnewstres" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- barra de busqueda -->
 
     <ImageButton
         android:id="@+id/imageButtonhome"
@@ -120,7 +168,7 @@
 
     <ImageButton
         android:id="@+id/imageButtonprofile"
-        android:layout_width="107dp"
+        android:layout_width="105dp"
         android:layout_height="80dp"
         android:background="@drawable/profile_dos"
         app:layout_constraintBottom_toBottomOf="parent"

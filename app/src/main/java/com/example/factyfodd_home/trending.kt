@@ -10,28 +10,49 @@ class trending : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_trending)
 
-        val btnntrendingatras: ImageButton = findViewById(R.id.imageButtontrendingatras)
-        btnntrendingatras.setOnClickListener{
+        val btntrendingatras: ImageButton = findViewById(R.id.imageButtontrendingatras)
+        btntrendingatras.setOnClickListener {
 
-            val intent: Intent = Intent(this,MainActivity ::class.java)
+            val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-        val btnntrendinguno: ImageButton = findViewById(R.id.imageButtonhuevostomate)
-        btnntrendinguno.setOnClickListener{
+        val btntrendinguno: ImageButton = findViewById(R.id.imageButtonhuevostomate)
+        btntrendinguno.setOnClickListener {
 
-            val intent: Intent = Intent(this,trendinguno ::class.java)
+            val intent: Intent = Intent(this, trendinguno::class.java)
             startActivity(intent)
         }
-        val btnntrendingdos: ImageButton = findViewById(R.id.imageButtoncookies)
-        btnntrendingdos.setOnClickListener{
+        val btntrendingdos: ImageButton = findViewById(R.id.imageButtoncookies)
+        btntrendingdos.setOnClickListener {
 
-            val intent: Intent = Intent(this,trendingdos ::class.java)
+            val intent: Intent = Intent(this, trendingdos::class.java)
             startActivity(intent)
         }
-        val btnntrendingtres: ImageButton = findViewById(R.id.imageButtonpastalangostinos)
-        btnntrendingtres.setOnClickListener{
+        val btntrendingtres: ImageButton = findViewById(R.id.imageButtonpastalangostinos)
+        btntrendingtres.setOnClickListener {
 
-            val intent: Intent = Intent(this,trendingtres ::class.java)
+            val intent: Intent = Intent(this, trendingtres::class.java)
+            startActivity(intent)
+        }
+
+        val btntrendingcuatro: ImageButton = findViewById(R.id.imageButtonsaladbrocolipollo)
+        btntrendingcuatro.setOnClickListener {
+
+            val intent: Intent = Intent(this, trendingcuatro::class.java)
+            startActivity(intent)
+        }
+
+        val btntrendingcinco: ImageButton = findViewById(R.id.imageButtonavena)
+        btntrendingcinco.setOnClickListener {
+
+            val intent: Intent = Intent(this, trendingcinco::class.java)
+            startActivity(intent)
+        }
+
+        val btntrendingseis: ImageButton = findViewById(R.id.imageButtonarroz_champiñones)
+        btntrendingseis.setOnClickListener {
+
+            val intent: Intent = Intent(this, trendingseis::class.java)
             startActivity(intent)
         }
     }

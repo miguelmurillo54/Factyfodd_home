@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trendingcinco">
+
+    <ImageView
+        android:id="@+id/imageViewtrendingcinco"
+        android:layout_width="371dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/avena_nueces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtrendingcinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Avena con nueces"
+        android:fontFamily="@font/campana"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendingcinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewtrendingcinco"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtrendingcinco" />
+
+    <TextView
+        android:id="@+id/textViewtrendingdescripcioncinco"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Esta receta de avena es una sencilla pero deliciosa preparacion que le gustara a tu paladar"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtrendingcinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingcinco"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingcinco" />
+
+    <TextView
+        android:id="@+id/textViewingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Ingredientes"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewtrendingdescripcioncinco"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtrendingdescripcioncinco" />
+
+    <TextView
+        android:id="@+id/textViewntrendingingredienteslista"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Plátano
+Nuez ½ taza
+Canela 1 cucharadita
+Sirope 1 cucharadita
+Avena ¾ taza
+Leche vegetal
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripcioncinco"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/textViewingredientes"
+        app:layout_constraintTop_toBottomOf="@+id/textViewingredientes" />
+
+    <TextView
+        android:id="@+id/textViewpreparacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/campana"
+        android:text="Preparacion"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewntrendingingredienteslista"
+        app:layout_constraintTop_toBottomOf="@+id/textViewntrendingingredienteslista" />
+
+    <TextView
+        android:id="@+id/textViewtrendingdospreparacion"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1.	Echa la leche en una olla y deja que hierva. Cuando comience a hervir añade la avena. Baja el fuego y deja que se cocine durante 5 minutos.
+2.	Mientras se cocina la avena corta el plátano en rodajas y rompe con tus manos las nueces.
+3.	Una vez esté lista la avena añádele la canela y el sirope, y mezcla.
+4.	Coloca la avena en dos recipientes y añade los trozos de plátano cortados, las nueces y, si quieres, puedes espolvorear un poco más de canela por encima.
+5.  ¡y listo!
+"
+        app:layout_constraintEnd_toEndOf="@+id/textViewtrendingdescripcioncinco"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewpreparacion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpreparacion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -132,7 +132,22 @@
           <theme>@style/Theme.Factyfodd_home</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trendingcinco.xml">
+        <config>
+          <theme>@style/Theme.Factyfodd_home</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trendingcuatro.xml">
+        <config>
+          <theme>@style/Theme.Factyfodd_home</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trendingdos.xml">
+        <config>
+          <theme>@style/Theme.Factyfodd_home</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trendingseis.xml">
         <config>
           <theme>@style/Theme.Factyfodd_home</theme>
         </config>
@@ -158,7 +173,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9785d34b-486d-4cee-a0cf-02f3ec7308d3" name="Changes" comment="implementacion de scroll view" />
+    <list default="true" id="9785d34b-486d-4cee-a0cf-02f3ec7308d3" name="Changes" comment="implementacion de scroll view">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/factyfodd_home/trendingcinco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/factyfodd_home/trendingcuatro.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/factyfodd_home/trendingseis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/newfour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trendingcinco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trendingcuatro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trendingseis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/factyfodd_home/trending.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/factyfodd_home/trending.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ensalada_brocoli_con_pollo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ensalada_brocoli_con_pollo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,13 +299,19 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/AndroidStudioProjects/DospantallasenAndroid&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/Desktop/Facty Food/Factyfood_home/app/src/main/res/drawable&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="android.template.685829823">
+      <recent name="com.example.factyfodd_home" />
+    </key>
+    <key name="android.template.1560955914">
+      <recent name="com.example.factyfodd_home" />
+    </key>
+    <key name="android.template.1997569546">
       <recent name="com.example.factyfodd_home" />
     </key>
     <key name="android.template.-619588939">
@@ -564,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714493441790</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implementacion de scroll view">
+      <option name="closed" value="true" />
+      <created>1714493778980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714493778980</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
